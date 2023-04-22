@@ -1,0 +1,153 @@
+.container {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 1415px;
+    margin-left: -100px;
+    height: auto;
+  }
+  
+  .block {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .block .left {
+    width: 70%;
+    height: auto;
+    background-color: #e0ecfc;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+  .block .left h3 {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.42857;
+    color: #23085a;
+    margin-left: 38%;
+  }
+  
+  .selectOption {
+    border: none;
+    padding: 10px 10px 10px;
+    flex-direction: row;
+    width: 170px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background: #fff;
+    color: #383c4c;
+    cursor: pointer;
+  }
+  
+  .typeInput {
+    margin-top: 10px;
+  }
+  
+  .typeInputValues {
+    border: none;
+    padding: 10px 10px 10px;
+    border-radius: 2px;
+    background: #fff;
+    color: #383c4c;
+    margin-left: 200px;
+    width: 405px;
+  }
+  
+  .addProductButton {
+    width: 405px;
+    margin-left: 200px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #383c4c;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .block .right {
+    width: 30%;
+    height: auto;
+    background-color: #e0ecfc;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+  .block .right img {
+    width: 150px;
+    height: 150px;
+    margin-left: 110px;
+    margin-top: 30px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .blockInfor {
+    margin-left: 30px;
+  }
+  
+  .schedule {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25%;
+  }
+  
+  .schedule div {
+    display: inline-block;
+  }
+  
+  .schedule .containImage {
+    margin: 5px;
+  }
+  
+  .containImage {
+    margin-top: 15px;
+    background-color: #fff;
+    border: 10px solid #f0ecf4;
+    height: 650px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 350px;
+  }
+  
+  .containImage img {
+    background-color: #23085a;
+    margin: 0;
+    border-top-left-radius: 20px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .BoxText {
+    padding: 20px 10px 2px 20px;
+    text-align: center;
+  }
+  
+  .BoxText p {
+    float: left;
+    clear: both;
+  }
+  
+  .containImage .BoxText div {
+    height: 50px;
+  }
+  
+  .containImage .text {
+    font-family: 'BritishCouncilSansW01-Headline', Arial, 'Helvetica Neue',
+      Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .containImage .text:hover {
+    color: #00953b;
+    text-decoration: underline;
+  }
+  
+  .payment {
+    width: inherit;
+    text-align: center;
+    height: 150px;
+  }
+  

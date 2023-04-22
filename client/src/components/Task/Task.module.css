@@ -1,0 +1,429 @@
+.accordion {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.accordion .item {
+  margin-top: 1.5px;
+}
+
+.headerTranscript {
+  display: block;
+  padding: 25px;
+  margin-left: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #dedae6;
+  text-align: left;
+}
+
+.transcript {
+  font-family: Arial;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #23085a;
+  font-size: 20px;
+}
+
+.transcript::after {
+  content: '\25be';
+  float: right;
+  transform: scale(1.5);
+}
+
+.panelText {
+  margin-left: 15px;
+  margin-top: 1px;
+  height: auto;
+  background-color: #ebeff0;
+  padding: 30px;
+}
+
+.panelText p {
+  width: 850px;
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.1;
+  bottom: 30px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.panelTextForm {
+  margin-left: 15px;
+  margin-top: -16px;
+  background-color: #dadada;
+  padding: 30px;
+}
+
+.form {
+  width: auto;
+  height: auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.39) 5px 5px 5px;
+  position: relative;
+}
+
+.dialogForm {
+  position: absolute;
+  top: 10px;
+  left: 130px;
+  width: 550px;
+  height: 140px;
+  border: 1px solid #333333;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.dialogForm .text {
+  text-align: center;
+}
+
+.dialogForm .total {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+.dialogForm .iconClose {
+  float: right;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.form .textTitle {
+  color: #658600;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+
+.remaining {
+  font-size: 12px;
+  background-color: #d8ecf2;
+  padding: 2px 10px;
+  margin: 0;
+  float: right;
+  border-radius: 5px;
+}
+
+.checkBox {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.question {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.checkBox .checkBoxMutiple {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.checkBox .mutipleChoise {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin-left: 20px;
+}
+
+.answer {
+  height: 200px;
+}
+
+.buttonCheck {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.buttonCheck button {
+  border: none;
+  background-color: #dadada;
+  color: #658600;
+}
+
+.buttonCheck .buttonFis {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.buttonCheck .buttonTry {
+  padding: 8px;
+  margin-left: 11px;
+  cursor: pointer;
+}
+
+/* Arrangement */
+
+.checkBox .items {
+  height: auto;
+  margin-bottom: 10px;
+  padding: 30px 20px;
+}
+
+.checkBox .items .item {
+  margin: 0;
+  padding: 0;
+}
+
+.checkBox .items .item li {
+  list-style-type: none;
+  padding: 8px;
+  margin-bottom: 1px;
+  border-bottom: 2px solid #dedae6;
+  color: #555555;
+}
+
+.checkBox .items .item li:hover {
+  border: 1px solid #555555;
+  color: #fff;
+  background-color: #7f7f7f;
+}
+
+.checkBox .items .item li .drag {
+  cursor: pointer;
+}
+
+.checkBox .items .item li .icon {
+  float: right;
+  color: #555555;
+}
+
+/* TrueFalse */
+
+.blockMutipleChoise {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 30px 20px;
+}
+
+.blockMutipleChoise .ItemChoise {
+  display: inline-block;
+}
+
+.ItemChoise .boolItem {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+/* MultipleChoice */
+
+.navigator {
+  text-align: center;
+  float: right !important;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.progressIndicator {
+  float: right;
+}
+
+.progressIndicator ul {
+  float: left;
+}
+
+.carouselIndicators {
+  width: auto;
+  position: static;
+  text-align: right;
+  margin: 5px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.carouselIndicators li {
+  border-color: transparent;
+  margin-right: 20px;
+  position: relative;
+  display: inline-block;
+  margin: 0 9px;
+  text-indent: -999px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.carouselIndicators li:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -23px;
+  top: 50%;
+  width: 22px;
+  height: 2px;
+  margin-top: -1px;
+}
+
+.carouselIndicators li,
+.carouselIndicators li.active {
+  width: 14px;
+  height: 14px;
+}
+
+.carouselIndicators li.active {
+  background-color: #9bbd34;
+}
+
+.carouselIndicators li,
+.carouselIndicators li:after {
+  background-color: #658600;
+}
+
+.carouselIndicators li:last-child,
+.carouselIndicators li.active:last-child {
+  margin-right: 0;
+}
+
+.carouselIndicators li:last-child::after,
+.carouselIndicators li.active:last-child::after {
+  display: none;
+}
+
+.pager {
+  margin: 0;
+  display: inline-block;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.pager::before {
+  content: ' ';
+  display: table;
+}
+
+.pager li {
+  display: inline;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #cccccc;
+}
+
+.pager > li > a,
+.pager > .disabled > a {
+  border-width: 0;
+}
+
+.pager .disabled > a {
+  color: #999999;
+  background-color: #eeeeee;
+  cursor: not-allowed;
+}
+
+.pager .previous > a,
+.pager .previous > span {
+  float: left;
+}
+
+.pager .next > a,
+.pager .next > span {
+  float: right;
+}
+
+.pager > li > a,
+.pager > li > span {
+  position: relative;
+  top: 0;
+  border-width: 0 1px 4px 1px;
+  color: #555555;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #eeeeee;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  font-weight: normal;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Gap Filing */
+
+.textBox {
+  margin: 10px;
+  max-width: 70px;
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.textBox:focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+
+.checkIcon {
+  position: absolute;
+  top: 25%;
+  right: 0px;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  margin: 0 5%;
+}

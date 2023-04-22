@@ -1,0 +1,162 @@
+.home {
+  display: flex;
+  align-items: stretch;
+  background-color: #202434;
+  height: 100vh;
+}
+
+.leftContent {
+  width: 25%;
+  height: auto;
+}
+
+.rightContent {
+  width: 75%;
+  height: auto;
+  overflow: auto;
+  flex-grow: 1;
+}
+
+.blockUpdate {
+  width: 100%;
+  height: auto;
+}
+
+.blockUpdate .selectOption {
+  border: none;
+  padding: 10px 10px 10px;
+  flex-direction: row;
+  width: 170px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background: #383c4c;
+  color: white;
+  cursor: pointer;
+}
+
+.blockUpdate div {
+  margin-bottom: 10px;
+}
+
+.blockUpdate .selectOption:focus {
+  outline: none;
+}
+
+.blockUpdate form {
+  width: 80%;
+  margin-top: 20px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #282c3c;
+}
+
+.blockUpdate form .typeInput {
+  margin-top: 10px;
+}
+
+.blockUpdate form .typeInput label {
+  font-size: 13px;
+  color: white;
+  font-weight: 300;
+  margin-left: 182px;
+  width: 400px;
+}
+
+.blockUpdate form .typeInput .typeInputValues {
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 10px 10px 10px;
+  flex-direction: row;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background: #383c4c;
+  color: white;
+}
+
+.blockUpdate form .typeInput textarea {
+  height: 150px;
+}
+
+.blockUpdate form .typeInput .typeInputValues:focus {
+  outline: none;
+  color: white;
+}
+
+.blockUpdate form .typeInputDouple {
+  display: flex;
+  align-items: stretch;
+  margin-top: 10px;
+  margin-left: 180px;
+  width: 400px;
+}
+
+.blockUpdate form .typeInputDouple .left {
+  flex-grow: 1;
+}
+
+.blockUpdate form .typeInputDouple .right {
+  flex-grow: 1;
+}
+
+.blockUpdate form .typeInputDouple label {
+  font-size: 13px;
+  color: white;
+  font-weight: 300;
+}
+
+.blockUpdate form .typeInputDouple .typeInputValuesDp1 {
+  border: none;
+  padding: 10px 10px 10px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 2px;
+  background: #383c4c;
+  color: white;
+  margin-left: 0px;
+}
+
+.blockUpdate form .typeInputDouple .typeInputValuesDp1:focus {
+  outline: none;
+}
+
+.blockUpdate form .typeInputDouple .typeInputValuesDp2 {
+  border: none;
+  padding: 10px 10px 10px;
+  width: 100%;
+  max-width: 198px;
+  border-radius: 2px;
+  background: #383c4c;
+  color: white;
+}
+
+.blockUpdate form .typeInputDouple .typeInputValuesDp2:focus {
+  outline: none;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.addProductButton {
+  width: 70px;
+  margin: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #383c4c;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.textEditor {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}

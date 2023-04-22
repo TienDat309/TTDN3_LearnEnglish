@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.green {
+  background: #00796b !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+  &:hover {
+    background: #00685c !important;
+  }
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .leftSide {
+      max-width: 500px;
+      .content {
+        h2 {
+          font-size: 44px;
+          font-weight: 400;
+          margin: 0;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 300;
+        }
+        .actionBtn {
+          margin-top: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .btn {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            padding: 15px;
+            border: none;
+            outline: none;
+            background: none;
+            border-radius: 5px;
+            color: #00796b;
+            text-decoration: none;
+            .iconBlock {
+              padding-right: 10px;
+            }
+            &:hover {
+              background: #f6faf9;
+            }
+          }
+          .inputBlock {
+            margin-left: 20px;
+            display: flex;
+            flex: 1;
+            .inputSection {
+              position: relative;
+              margin-right: 10px;
+              .iconBlock {
+                position: absolute;
+                top: 50%;
+                transform: translate(10px, -50%);
+                color: #5f6368;
+              }
+              input {
+                font-size: 16px;
+                height: 48px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding-left: 35px;
+                width: 100%;
+                box-sizing: border-box;
+                outline: none;
+              }
+            }
+          }
+        }
+      }
+      .helpText {
+        margin-top: 30px;
+        padding-top: 25px;
+        border-top: 1px solid #ddd;
+        a {
+          text-decoration: none;
+          color: #00796b;
+        }
+      }
+    }
+    .rightSide {
+      .content {
+        border: 1px solid #eee;
+        padding: 30px;
+        width: 100%;
+        max-width: 650px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+          0 2px 6px 2px rgba(60, 64, 67, 0.149);
+        img {
+          width: 100%;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
+.menu {
+  display: block;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 4px;
+  box-shadow: 1px 2px 9px rgb(65, 65, 65);
+  height: fit-content;
+  width: fit-content;
+  padding-left: 0px;
+}
+.menuItem {
+  cursor: pointer;
+  overflow: hidden;
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-left: 16px;
+  height: 48px;
+  white-space: nowrap;
+}
+.menuItem:hover {
+  background-color: #e8e5e5;
+}
+
+.MeetingInfoBlock {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #dfe0e1;
+  border-radius: 10px;
+  padding: 25px;
+  width: 450px;
+  .inforText {
+    color: #222;
+    font-size: 14px;
+  }
+  .meetLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    span {
+      font-size: 14px;
+      font-weight: 600;
+      border: none;
+      outline: none;
+      background: none;
+      flex: 1;
+      color: #222;
+    }
+    .icon {
+      cursor: pointer;
+      color: #555;
+    }
+  }
+}

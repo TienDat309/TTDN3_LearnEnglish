@@ -1,0 +1,31 @@
+.item {
+  color: #23085a;
+  font-size: 18px;
+  font-family: 700;
+  width: 100%;
+}
+.headerTranscript{
+    display: block;
+    padding: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #dedae6;
+    text-align: left;
+}
+.transcript {
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #23085A;
+    font-size: 20px;
+}
+
+.transcript::after {
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+.panelText{
+    background-color: transparent;
+}

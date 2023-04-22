@@ -1,0 +1,110 @@
+.container {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+
+.blockFirst {
+    display: flex;
+    align-items: stretch;
+}
+
+.blockFirst div {
+    margin: 10px;
+}
+
+.itemLeft {
+    flex-grow: 2.5;
+    width: 200px;
+    height: auto;
+}
+
+.titleLeft {
+    color: #2b2d38;
+    font: normal 600 36px/54px AkkuratPro, sans-serif;
+    letter-spacing: -.2px;
+    text-align: left;
+    margin-left: 31px;
+}
+
+.contentLeftOne {
+    text-align: left;
+    margin-left: 31px;
+    color: #000;
+    font: normal 400 18px/32px AkkuratPro, sans-serif;
+    letter-spacing: 0;
+}
+
+.contentLeftTwo {
+    text-align: left;
+    margin-left: 31px;
+    color: #000;
+    font: normal 400 18px/32px AkkuratPro, sans-serif;
+    letter-spacing: 0;
+}
+
+.itemRight {
+    flex-grow: 1;
+    width: 200px;
+    height: auto;
+}
+
+.itemRight img {
+    width: 320px;
+    height: 320px;
+    margin-top: 100px;
+}
+
+.blockSecond {
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+.blockSecond div {
+    margin: 10px;
+}
+
+.itemLetfSecond {
+    flex-grow: 1;
+    width: 200px;
+    height: auto;
+}
+
+.itemLetfSecond img {
+    width: 200px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.itemRightSecond {
+    flex-grow: 2.5;
+    width: 600px;
+    height: auto;
+}
+
+.titleRightSecond {
+    color: #2b2d38;
+    font: normal 600 36px/54px AkkuratPro, sans-serif;
+    letter-spacing: -.2px;
+    text-align: left;
+    margin-left: 140px;
+    width: 400px;
+}
+
+.contentRightSecond {
+    text-align: left;
+    margin-left: 140px;
+    color: #000;
+    font: normal 400 18px/32px AkkuratPro, sans-serif;
+    letter-spacing: 0;
+    width: 700px;
+}
+
+.itemRightThrre img {
+    width: 400px;
+    height: 220px;
+    margin-top: 150px;
+    margin-right: 70px;
+}

@@ -1,0 +1,64 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.depthLink {
+    color: #23085a;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.line {
+    width: 8%;
+    height: 5px;
+    background-color: #23085A;
+}
+
+.search .srch {
+    padding: 15px 15px 15px;
+    width: 650px;
+    height: 56px;
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    box-shadow: none;
+    font-size: 18px;
+    line-height: 1.42857;
+    color: #555555;
+}
+
+.search .btn {
+    cursor: pointer;
+    color: #23085a;
+    border: none;
+    padding: 15px 15px 15px;
+    width: 60px;
+    height: 56px;
+    background-color: #f0ecec;
+}
+
+.formSearchResuilt {
+    width: 100%;
+    height: auto;
+}
+
+.formSearchResuilt h2 {
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: "BritishCouncilSansW01-Headline", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.formSearchResuilt h2 span {
+    font-size: 25px;
+    color: #23085a;
+}
+
+.formSearchResuilt p {
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: "BritishCouncilSansW01-Headline", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

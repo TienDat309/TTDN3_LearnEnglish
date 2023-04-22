@@ -1,0 +1,64 @@
+@import '../../../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../../../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../../../node_modules/@syncfusion/ej2-calendars/styles/material.css';
+@import '../../../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import '../../../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../../../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../../../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../../../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../../../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../../../node_modules/@syncfusion/ej2-react-schedule/styles/material.css';
+
+.template-wrap {
+  font-size: 13px;
+}
+
+.a-hover:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.close {
+  z-index: 999;
+  background-color: #fff;
+  border: 1px solid #cfcece;
+  border-radius: 18px;
+  cursor: pointer;
+  display: block;
+  font-size: 24px;
+  padding: 2px 5px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background: 0 0;
+  color: var(--ifm-color-black);
+  float: right;
+  font-weight: var(--ifm-font-weight-bold);
+  line-height: 1;
+  opacity: 0.5;
+  transition: opacity var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.student-list {
+  background-color: #3f51b5;
+  padding: 20px;
+}
+
+.invite-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.invite-input {
+  width: 400px;
+  margin-right: 5px;
+}
+
+.invite-text {
+  color: white;
+}
+
+.option-email {
+  font-size: small;
+}

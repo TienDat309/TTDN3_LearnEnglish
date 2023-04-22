@@ -1,0 +1,38 @@
+.container {
+    max-width: 450px;
+    height: auto;
+}
+
+.main {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.selectLanguage {
+    padding: 4px;
+    width: 150px;
+    background-color: #f8f4f4;
+    border: none;
+    margin-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+}
+
+.selectLanguage:focus {
+    outline: none;
+}
+
+.main .textTranslate {
+    margin-top: 10px;
+    margin-left: 15px;
+    max-width: 400px;
+}
+
+.typeTextTranslate {
+    margin-left: 15px;
+    font-family: 'Roboto', arial, sans-serif;
+    color: #636363;
+    font-size: 14px;
+}

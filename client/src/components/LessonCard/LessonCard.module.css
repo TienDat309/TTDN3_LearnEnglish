@@ -1,0 +1,114 @@
+.viewRow {
+  width: 100%;
+  height: 275px;
+  margin-bottom: 50px;
+}
+
+.viewRow {
+  display: flex;
+  align-items: stretch;
+}
+
+.viewRow div {
+  margin: 10px;
+}
+
+.imageFile {
+  width: 430px;
+  height: 261px;
+}
+
+.imageFile img {
+  border-bottom-left-radius: 35px;
+  width: 430px;
+  height: 261px;
+}
+
+.textView {
+  width: 550px;
+  height: 200px;
+  position: relative;
+  top: 62px;
+  right: 150px;
+  border-top-left-radius: 40px;
+  background-color: #fff;
+}
+
+.textView h2 {
+  margin-left: 20px;
+  color: #23085a;
+  text-decoration: none;
+  display: block;
+  font-size: 28px;
+}
+
+.textView h2:hover {
+  color: #00953b;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.textView p {
+  margin-left: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.42857;
+  color: #000;
+  width: 500px;
+}
+
+@media (max-width: 1230px) {
+  .textView {
+    left: -50%;
+    top: 70% !important;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .textView p {
+    font-size: 18px;
+    overflow-wrap: break-word;
+  }
+  .textView h2 {
+    font-size: 21px;
+  }
+  .viewRow:last-child{
+    margin-bottom: 150px !important;
+  }
+}
+@media (max-width: 767px) and (max-width: 1024px) {
+  .textView {
+    left: -70%;
+    top: 70% !important;
+    width: 100%;
+    height: 200px;
+  }
+  .viewRow:last-child{
+    margin-bottom: 150px !important;
+  }
+  .textView p {
+    font-size: 15px;
+    overflow-wrap: break-word;
+  }
+  .textView h2 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 500px) {
+  .textView {
+    left: -95%;
+    top: 70% !important;
+    width: 100%;
+    height: 150px;
+  }
+  .viewRow:last-child{
+    margin-bottom: 100px !important;
+  }
+  .textView p {
+    font-size: 12px;
+    overflow-wrap: break-word;
+  }
+  .textView h2 {
+    font-size: 18px;
+  }
+}

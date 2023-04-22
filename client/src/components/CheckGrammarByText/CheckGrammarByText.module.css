@@ -1,0 +1,129 @@
+.containChecking {
+    width: 100%;
+    height: 680px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.title {
+    text-align: center;
+    color: #2b2d38;
+    font: normal 600 36px/54px AkkuratPro, sans-serif;
+    letter-spacing: -.2px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #000;
+    font: normal 400 21px/36px AkkuratPro, sans-serif;
+    letter-spacing: 0;
+}
+
+.checkBlock {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: stretch;
+}
+
+.checkBlock div {
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.checkBlock .column1 {
+    flex-grow: 1;
+    height: 400px;
+}
+
+.column1 .items {
+    margin-top: 1px;
+}
+
+.column1 .items img {
+    width: 125px;
+    height: 120px;
+}
+
+.column1 .items .imageTitle {
+    color: #8189a9;
+    font: normal 400 16px/24px AkkuratPro, sans-serif;
+    letter-spacing: 0;
+    margin: 0 auto;
+}
+
+.checkBlock .blockText {
+    flex-grow: 4;
+    height: 350px;
+    margin-top: 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.textAr {
+    margin-top: 10px;
+    width: 90%;
+    height: 80%;
+    border: none;
+    color: #60657b;
+    font: normal 400 21px/36px AkkuratPro, sans-serif;
+    letter-spacing: -.09px;
+    box-sizing: border-box;
+    outline: none;
+    overflow: auto;
+    resize: none;
+    transition: border .3s;
+    vertical-align: top;
+}
+
+.blockText button {
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    background-color: #14c49c;
+    border-radius: 7px;
+    border: none;
+}
+
+.blockText button span {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.blockText button:hover {
+    background-color: #2BF3CA;
+}
+
+.blockText button span:hover {
+    background-color: #2BF3CA;
+}
+
+.checkBlock .column2 {
+    flex-grow: 1;
+    height: 400px;
+}
+
+.column2 .items {
+    margin-top: 1px;
+}
+
+.column2 .items img {
+    width: 125px;
+    height: 120px;
+}
+
+.column2 .items .imageTitle {
+    color: #8189a9;
+    font: normal 400 16px/24px AkkuratPro, sans-serif;
+    letter-spacing: 0;
+    margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+.blockButton {
+    display: flex;
+    align-items: stretch;
+    padding-left: 80%;
+}
+
+.blockButton button {
+    margin: 3px;
+    padding: 3px;
+    border: none;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #23085A;
+    font-size: 15px;
+    cursor: pointer;
+}

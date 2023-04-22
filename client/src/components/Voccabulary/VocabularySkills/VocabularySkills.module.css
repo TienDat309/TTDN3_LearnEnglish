@@ -1,0 +1,29 @@
+.heading {
+  margin-bottom: 50px;
+}
+.depthLink {
+  color: #23085a;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.line {
+  width: 8%;
+  height: 5px;
+  background-color: #23085a;
+}
+.containerLesson {
+  margin-bottom: 145px;
+}
+
+.contactBox p {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.42857;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .containerLesson {
+    margin: 0;
+  }
+}

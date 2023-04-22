@@ -1,0 +1,17 @@
+.home {
+    display: flex;
+    align-items: stretch;
+    background-color: #202434;
+    height: 100vh;
+}
+
+.leftContent {
+    width: 25%;
+    height: auto;
+}
+
+.rightContent {
+    width: 75%;
+    height: auto;
+    overflow: auto;
+}
